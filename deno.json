@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "build": "deno run -A npm:astro build",
+    "start": "deno run --unstable-bare-node-builtins --allow-net --allow-env --allow-read --allow-write --allow-sys ./dist/server/entry.mjs"
+  }
+}

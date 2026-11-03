@@ -1,0 +1,16 @@
+{
+  "name": "app-example-astro-ssr-deno",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "start": "deno ./dist/server/entry.mjs"
+  },
+  "dependencies": {
+    "@astrojs/node": "^11.1.7",
+    "astro": "^7.3.8"
+  }
+}

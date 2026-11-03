@@ -1,0 +1,13 @@
+node_modules/
+.deno/
+.nuxt/
+.next/
+.output/
+.svelte-kit/
+dist/
+build/
+out/
+.astro/
+.react-router/
+.vite/
+*.tsbuildinfo
